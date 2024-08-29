@@ -1,8 +1,6 @@
 # CardioCare-Predicting-Heart-Disease-with-Data-Analysis
 
-- Performed Complete Data Analysis on the Heart Disease Dataset.
-- Utitlized Pandas, Numpy Library for Analysisng the Data and data manipulation.
-- Performed Data Visualization using seaborn, Matplotlib Libraries.
-- Implemented Machine Learning Model of Logistic Regression. 
-- Trained and tested the Model and got above 90% Accuracy in it.
-- Evaluated the model Performance using different evaluation metrics such as Accuracy score, confusion matrix and Classification report.  
+- Executed a comprehensive analysis of the Heart Disease Dataset by harnessing the power of Pandas and NumPy for meticulous data manipulation, encompassing cleaning, transformation, and in-depth exploratory analysis.
+- Employed Seaborn and Matplotlib to craft compelling visualizations, unveiling key patterns and insights that informed the analysis.
+- Developed a robust Logistic Regression model, meticulously trained and tested, resulting in an impressive accuracy rate exceeding 90%.
+- Conducted a thorough evaluation of the model’s performance using a suite of metrics, including the accuracy score, confusion matrix, and classification report, ensuring the model’s reliability and effectiveness in predictive tasks.
