@@ -22,7 +22,7 @@ This project highlights key data science and machine learning techniques through
 - Remove records with missing values to ensure dataset quality.
 - Prepare features for model training.
 
-### 📊 Data Visualization & EDA
+### 📊 Data Visualization & EDA (Exploratory Data Analysis)
 - Visualize heart disease distribution by:
   - **Gender**
   - **Age Groups**
