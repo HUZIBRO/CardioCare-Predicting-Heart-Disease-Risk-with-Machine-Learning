@@ -69,7 +69,7 @@ This project highlights **data science, machine learning, and deployment skills*
 - **Libraries**: pandas, numpy, matplotlib, seaborn, scikit-learn, imblearn, FastAPI, Pydantic, requests  
 
 ## 📂 File Structure  
-- `EDA adn HeartDisease prediction.ipynb` → Jupyter Notebook containing EDA, feature selection, model training, and evaluation.  
+- `EDA and HeartDisease prediction.ipynb` → Jupyter Notebook containing EDA, feature selection, model training, and evaluation.  
 - `model_api.py` → FastAPI script to serve the ML model as a REST API.  
 - `testing.py` → Client script to test API endpoints with sample input data.  
 - Other supporting files → Pickled trained model, dataset.  
