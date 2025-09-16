@@ -1,74 +1,73 @@
-# ❤️ CardioCare: Predicting Heart Disease Risk with Machine Learning
+# ❤️ CardioCare: Predicting Heart Disease Risk with Machine Learning & FastAPI 
 
-## 📌 Short Description  
-This project aims to develop a predictive model to identify individuals at risk of developing heart disease based on a range of clinical and behavioral health indicators. It demonstrates a complete classification workflow—from data exploration and visualization to model training and evaluation—while addressing real-world challenges such as imbalanced datasets.
+📌 **Short Description**  
+CardioCare develops a predictive machine learning model to identify individuals at risk of heart disease using clinical and behavioral health indicators. It demonstrates a **complete end-to-end workflow**—from exploratory data analysis and feature engineering to model training, evaluation, and API deployment with FastAPI.  
 
 ---
 
 ## 📊 Project Overview  
-
-This project highlights key data science and machine learning techniques through a health-focused classification problem. It involves in-depth data analytics, data visualization, feature selection, model building, and model performance evaluation.
-
----
-
-## 🚀 Key Steps & Skills Demonstrated
-
-### 📂 Data Loading & Exploration
-- Load structured health data using `pandas`.
-- Perform descriptive analysis (`.info()`, `.describe()`) to understand data distribution.
-- Check for and summarize missing values.
-
-### 🧹 Data Cleaning & Preparation
-- Remove records with missing values to ensure dataset quality.
-- Prepare features for model training.
-
-### 📊 Data Visualization & EDA (Exploratory Data Analysis)
-- Visualize heart disease distribution by:
-  - **Gender**
-  - **Age Groups**
-  - **BMI, Glucose, Heart Rate**
-  - **Smoking Status**, **Diabetes**, **Cigarette Consumption**
-- Tools used: `matplotlib`, `seaborn`
-
-### 🔍 Feature Selection
-- Use a **correlation matrix** to assess feature relevance.
-- Select top predictors based on correlation with the target variable.
-
-### ⚖️ Handling Imbalanced Data
-- Apply **SMOTE (Synthetic Minority Over-sampling Technique)** to balance the dataset and improve model generalization.
-
-### 🧠 Model Training
-Two classification models are trained and compared:
-- 🌲 **Random Forest Classifier**
-- 📍 **K-Nearest Neighbors (KNN)**
-
-### 📈 Model Evaluation
-Models are evaluated using:
-- **Accuracy Score**
-- **Confusion Matrix**
-- **Classification Report** (Precision, Recall, F1-Score)
+This project highlights **data science, machine learning, and deployment skills** through a healthcare-focused classification problem. Beyond notebooks, the trained model is wrapped in a **FastAPI application** with **Pydantic validation** and deployed as a **REST API**, making it usable in real-world scenarios.  
+👉 You can go through the project files for detailed instructions on usage and testing.  
 
 ---
 
-## 📌 Data Science & ML Skills Demonstrated
+## 🚀 Key Steps & Skills Demonstrated  
 
-- **Data Analysis & Wrangling:** `pandas`, `numpy`
-- **Statistical Visualization:** `matplotlib`, `seaborn`
-- **Exploratory Data Analysis (EDA)**
-- **Feature Engineering and Selection**
-- **Class Imbalance Handling:** SMOTE
-- **Machine Learning Classification:** `scikit-learn` (Random Forest, KNN)
-- **Model Performance Evaluation:** Classification Metrics & Diagnostic Plots
+### 📂 Data Loading & Exploration  
+- Loaded structured health data with **pandas**.  
+- Performed descriptive analysis (`.info()`, `.describe()`) to understand data distribution.  
+- Summarized missing values and identified patterns.  
+
+### 🧹 Data Cleaning & Preparation  
+- Removed records with missing values.  
+- Standardized features for training.  
+
+### 📊 Exploratory Data Analysis (EDA)  
+- Visualized relationships between risk factors and heart disease (gender, age groups, BMI, glucose, smoking, diabetes).  
+- Tools: **matplotlib, seaborn**.  
+
+### 🔍 Feature Selection  
+- Applied correlation analysis to identify top predictors.  
+
+### ⚖️ Handling Imbalanced Data  
+- Applied **SMOTE** to balance dataset classes and improve fairness.  
+
+### 🧠 Model Training  
+- Trained and compared two models:  
+  - 🌲 Random Forest Classifier  
+  - 📍 K-Nearest Neighbors (KNN)  
+
+### 📈 Model Evaluation  
+- Evaluated models using:  
+  - Accuracy Score  
+  - Confusion Matrix  
+  - Precision, Recall, F1-Score  
+
+### 🌐 Model Deployment  
+- Saved trained model using **pickle**.  
+- Built a **FastAPI app** with:  
+  - `/predict/` endpoint for predictions  
+  - **Pydantic validation** for clean input handling  
+- Tested the API with **Python requests**.  
 
 ---
 
-## 🧰 Tools & Technologies Used
-
-- **Python 3.11**
-- **Libraries:**
-  - `pandas`, `numpy`
-  - `matplotlib`, `seaborn`
-  - `scikit-learn`
-  - `imblearn` (for SMOTE)
+## 📌 Skills Demonstrated  
+- **Data Wrangling & Analysis**: pandas, numpy  
+- **Statistical Visualization**: matplotlib, seaborn  
+- **EDA & Feature Selection**  
+- **Class Imbalance Handling**: SMOTE  
+- **ML Classification**: Random Forest, KNN (scikit-learn)  
+- **Model Evaluation & Metrics**  
+- **Deployment & API Development**: FastAPI, Pydantic, Pickle  
+- **API Testing**: requests  
 
 ---
+
+## 🧰 Tools & Technologies Used  
+- **Python 3.11**  
+- **Libraries**: pandas, numpy, matplotlib, seaborn, scikit-learn, imblearn, FastAPI, Pydantic, requests  
+
+---
+
+🔗 **Note**: Please check the repository files for detailed instructions on how to run the project and test the API.  
